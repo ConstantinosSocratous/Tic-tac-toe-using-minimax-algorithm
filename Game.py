@@ -16,12 +16,8 @@ class Game:
       """
       Init the board
       """
-      for i in range(3):
-        row = []
-        for j in range(3):
-          row.append(" ")
-        self.board.append(row)
-    
+      self.board = [[" ", " ", " "],[" ", " ", " "],[" ", " ", " "]]
+
     def print(self):
       print()
       print("Player", self.currentPlayer.name, "plays")

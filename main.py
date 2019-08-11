@@ -52,6 +52,12 @@ def start(game: Game):
         clean()
         game.print()
 
+    
+    print("Type y to play again:", end = " ")
+    if input() == "y":
+        clean()
+        init()
+    
 
 def init():
 
